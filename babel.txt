@@ -53,3 +53,8 @@ presets字段设定转码规则，常用规则集：
 		}
 	}
 	转码命令：npm run build
+
+
+
+
+参考文件：http://www.ruanyifeng.com/blog/2016/01/babel.html
