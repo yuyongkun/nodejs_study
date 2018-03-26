@@ -1,0 +1,27 @@
+登陆数据库
+mysql -h 主机的地址 -u 用户名 -p 密码
+管理数据库服务
+services.msc
+
+
+
+创建数据库：create database db;
+删除数据库：drop database db;
+备份数据库：
+backup database db
+to 'e\sql_backup' 
+with format,
+name='2018.3.21号';
+查询正在使用数据库：status;
+导入数据库：source '文件绝对路径'
+导出数据库：
+查看表结构：desc tablename;
+
+
+解决cmd中MySQL查询和命令返回的中文乱码问题
+#设置成utf8  
+set names utf8  
+  
+#设置成GBK  
+set names gbk  
+

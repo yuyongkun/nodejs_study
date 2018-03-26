@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+    	input{
+    		border:none;
+    	}
+    </style>
+</head>
+
+<body>
+    <form action="/reset" method="post">
+        网站名称：<input type="text" name="sitename" value=<%=sitename%> readonly><br>
+        网站URL：<input type="text" name="siteurl" value=<%=siteurl%> readonly><br>
+        <button type="submit">重新设置</button>
+    </form>
+</body>
+
+</html>
